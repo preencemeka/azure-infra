@@ -1,0 +1,24 @@
+nano .gitignore
+# or use: code .gitignore (VS Code)
+```
+
+**Add this content**:
+```
+# Environment variables (contain secrets)
+.env
+*.env
+
+# Terraform state files (contain sensitive data)
+*.tfstate
+*.tfstate.backup
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
